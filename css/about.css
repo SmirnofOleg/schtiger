@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'Heavy';
+  src: url('../fonts/FuturaPT-Heavy.eot');
+  src: local('Futura PT Heavy'), local('FuturaPT-Heavy'), url('../fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaPT-Heavy.woff') format('woff'), url('../fonts/FuturaPT-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Book';
+  src: url('../fonts/FuturaPT-Book.eot');
+  src: local('Futura PT Book'), local('FuturaPT-Book'), url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaPT-Book.woff') format('woff'), url('../fonts/FuturaPT-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Light';
+  src: url('../fonts/FuturaPT-Light.eot');
+  src: local('Futura PT Light'), local('FuturaPT-Light'), url('../fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaPT-Light.woff') format('woff'), url('../fonts/FuturaPT-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Demi';
+  src: url('../fonts/FuturaPT-Demi.eot');
+  src: local('Futura PT Demi'), local('FuturaPT-Demi'), url('../fonts/FuturaPT-Demi.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaPT-Demi.woff') format('woff'), url('../fonts/FuturaPT-Demi.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bold';
+  src: url('../fonts/FuturaPT-Bold.eot');
+  src: local('Futura PT Bold'), local('FuturaPT-Bold'), url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaPT-Bold.woff') format('woff'), url('../fonts/FuturaPT-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Extra';
+  src: url('../fonts/FuturaPT-ExtraBold.eot');
+  src: local('Futura PT Extra Bold'), local('FuturaPT-ExtraBold'), url('../fonts/FuturaPT-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaPT-ExtraBold.woff') format('woff'), url('../fonts/FuturaPT-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.breadcrumbs {
+  display: flex;
+  padding: 10px 0;
+}
+.breadcrumbs a {
+  font-size: 14px;
+  color: #333230;
+  text-decoration: none;
+}
+.breadcrumbs .active {
+  color: #c4c4c4;
+}
+.banner-about {
+  position: relative;
+  background: url(../image/about/bg-company.png) no-repeat top center;
+  height: 345px;
+}
+.banner-about__heading {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  max-width: 1170px;
+  width: 100%;
+  transform: translate(-50%);
+  padding: 0 15px;
+}
+.banner-about__heading h1 {
+  font-size: 60px;
+  color: #333230;
+  font-family: "Bold";
+  text-transform: uppercase;
+  line-height: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 6%;
+  padding-right: 57px;
+}
+.banner-about__heading h1:before {
+  content: "";
+  position: absolute;
+  background: url(../image/about.png) no-repeat;
+  width: 337px;
+  height: 85px;
+  right: 0;
+  top: 21px;
+}
+.banner-about__heading span {
+  font-size: 22px;
+  display: flex;
+  color: #333230;
+  line-height: 1.3;
+  text-align: right;
+  margin-top: 5%;
+  justify-content: flex-end;
+}
+.content .wrapper .content-text h1 {
+  font-size: 25px;
+  font-family: Bold;
+  font-weight: bold;
+  color: #333230;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.content .wrapper .content-text p {
+  font-size: 16px;
+  line-height: 25px;
+}
+.wrapper .content-container {
+  display: flex;
+  position: relative;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 30px;
+}
+.wrapper .content-container .content-blocks {
+  position: relative;
+  display: flex;
+  width: 555px;
+  height: 156px;
+  box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+  z-index: 10;
+}
+.wrapper .content-container .content-blocks__img {
+  position: relative;
+  margin-top: 20px;
+}
+.wrapper .content-container .content-blocks__text {
+  padding-left: 35px;
+}
+.wrapper .content-container .content-blocks__text h2 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #2b2a28;
+  padding-top: 30px;
+}
+.wrapper .content-container .content-blocks__text p {
+  font-size: 18px;
+  line-height: 1.56;
+  color: #a6a6a6;
+  padding-top: 10px;
+}
+@media (max-width: 768px) {
+  .banner-about {
+    text-align: center;
+  }
+  .banner-about__heading h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 30px;
+  }
+  .banner-about__heading h1:before {
+    content: "";
+    display: none;
+  }
+  .banner-about__heading span {
+    margin-top: 0;
+    text-align: center;
+  }
+  .content .content-text h1 {
+    text-align: center;
+  }
+  .wrapper .content-container .content-blocks {
+    height: auto;
+  }
+  .wrapper .content-container .content-blocks__img {
+    width: 50px;
+    height: 73px;
+  }
+  .wrapper .content-container .content-blocks__img img {
+    width: 50px;
+    height: 73px;
+  }
+  .wrapper .content-container .content-blocks__text {
+    width: 85%;
+    padding-left: 5px;
+  }
+  .wrapper .content-container .content-blocks__text h2 {
+    font-size: 16px;
+  }
+  .wrapper .content-container .content-blocks__text p {
+    line-height: 1.25;
+    font-size: 16px;
+  }
+}

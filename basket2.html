@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Корзина</title>
+</head>
+
+<body>
+	<header class="header">
+		<nav id="my-menu" class="nav">
+			<ul>
+				<li><a href="index.html" class="anchor">Главная</a></li>
+				<li><a href="catalog.html" class="anchor">Каталог</a></li>
+				<li><a href="sale.html" class="anchor">Акции и скидки</a></li>
+				<li><a href="delivery.html" class="anchor">Доставка и оплата</a></li>
+				<li><a href="cooperation.html" class="anchor">Сотрудничество</a></li>
+				<li><a href="about.html" class="anchor">Контакты</a></li>
+
+			</ul>
+
+		</nav>
+		<div class="header__top">
+			<div class="wrapper">
+				<div class="header__inner">
+					<div class="currency">
+						<span class="currency__selected">RU</span>
+						<ul class="currency__list">
+							<li class="currency__item">
+								<a href="">EN</a>
+							</li>
+							<li class="currency__item">
+								<a href="">BY</a>
+							</li>
+						</ul>
+					</div>
+					<div class="information">
+						<div class="information__email">
+							<span class="email">Email: <a href="mailto:info@shteiger.ru">info@shteiger.ru</a></span>
+						</div>
+						<div class="mode">
+							<span class="mode__shop">Режим работы: <span>Пн.- Вс. с 9:00 до 19:00</span></span>
+						</div>
+					</div>
+					<div class="account">
+						<ul class="account__list">
+							<li class="account__item">
+								<a class="account__link" href="">Регистрация</a>
+							</li>
+							<li class="account__item">
+								<a class="account__link popup-btn" href="">Вход</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__middle">
+
+			<div class="wrapper">
+				<div class="header__inner">
+					<div class="logo">
+						<a href="">SHTEIGER</a>
+					</div>
+					<div class="header__info">
+						<div class="header__social">
+							<ul class="social__list">
+								<li class="social__item">
+									<a href=""></a>
+								</li>
+								<li class="social__item">
+									<a href=""></a>
+								</li>
+								<li class="social__item">
+									<a href=""></a>
+								</li>
+							</ul>
+						</div>
+						<div class="cart">
+							<div class="cart__count">
+								<i class="icon-cart"></i>
+								<div class="cart__title">
+									<span>Корзина</span>
+									<span>(5)</span>
+								</div>
+							</div>
+							<div class="cart__price">
+								<span class="cart__total">2540 <span>руб.</span></span>
+							</div>
+						</div>
+						<div class="menu-button">
+							<i class="icon-menu"></i>
+							<span class="menu-title">Меню</span>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="menu">
+			<div class="wrapper">
+				<div class="header__inner">
+					<div class="menu-dropdown">
+						<a class="menu-dropdown__title">Каталог</a>
+						<i class="icon-current"></i>
+						<div class="sub-menu">
+							<ul>
+								<li><a href="">Классические доски</a></li>
+								<li><a href="">Торцевые доски</a></li>
+								<li><a href="">Сервировочные доски</a></li>
+								<li><a href="">Доски с эпоксидной смолой</a></li>
+								<li><a href="">Столы</a></li>
+								<li><a href="">Часы</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="feedback">
+						<ul class="feedback__list">
+							<li class="feedback__item">
+								<i class="icon-whatsapp"></i>
+								<a href="tel:+74994040450">+7 (499) 404-04-50</a>
+							</li>
+							<li class="feedback__item">
+								<a href="tel:+79164168928">+7 (916) 416-89-28</a>
+							</li>
+							<li class="feedback__item feedback__item_btn">
+								<a href="">Заказать звонок</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!--============хлебные крошки===============-->
+
+
+	<section class="basket">
+		<div class="wrapper">
+			<div class="breadcrumbs">
+				<a href="#">Главная / </a>
+				<a href="#" class="active">Ваша корзина</a>
+			</div>
+		</div>
+
+		<div class="wrapper">
+			<div class="titleBask2">
+				<h1>Ваша корзина</h1>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<section class="itogForm">
+			<div class="itogForm__item">
+				<p>Товаров</p>
+				<span>3 шт.</span>
+			</div>
+			<div class="itogForm__item">
+				<p>Стоимость</p>
+				<span>2 000 р.</span>
+			</div>
+			<div class="itogForm__item">
+				<p>Скидка</p>
+				<span>10%</span>
+			</div>
+			<div class="itogForm__item">
+				<p>Получено</p>
+				<span>500 бал.</span>
+			</div>
+			<div class="itogForm__item">
+				<p>К оплате</p>
+				<span>99 800 р.</span>
+			</div>
+		</section>
+
+		<!--Начало формы-->
+		<section class="formTop">
+			<div class="formTop__item">
+				<p>1. Покупатель</p>
+			</div>
+			<div class="formTop__item"><a href="#" class="accordion_head">Редактировать</a></div>
+
+
+			<section class="accordion_body">
+				<div class="accordion_body__item"><input type="text" placeholder="Ваше имя"></div>
+				<div class="accordion_body__item"><input type="text" placeholder="Ваш телефон"></div>
+				<div class="accordion_body__item"><input type="text" placeholder="Ваш e-mail"></div>
+
+				<div class="accordion_body__item"><a href="#" class="formBtn">Далее</a></div>
+
+
+			</section>
+		</section>
+
+		<section class="formMiddleTitle">
+			<div class="formMiddleTitle__item">
+				<p class="active">2. Доставка</p>
+			</div>
+			<div class="formMiddleTitle__item"><a href="#" class="accordion_head2">Редактировать</a></div>
+
+		</section>
+		<section class="formMiddle">
+
+			<div class="formMiddle__item"><input type="text" placeholder="Населённый пункт"></div>
+			<div class="formMiddle__item"><input type="text" placeholder="Улица"></div>
+			<div class="formMiddle__item"><input type="text" placeholder="Номер дома"></div>
+			<div class="formMiddle__item"><input type="text" placeholder="Номер квартиры (если есть)"></div>
+			<div class="formMiddle__item"><input type="text" placeholder="Примичание (необязательно)"></div>
+			<div class="formMiddle__item"><a href="#" class="delivery">Далее</a></div>
+			<div class="formMiddle__item">
+				<div class="formMiddle__item__checkbox">
+					<input id="contactChoice1" type="radio" name="contact" value="">
+					<label for="contactChoice1">Самовывоз </label>
+					<span> (г. Москва, ул. Ивана франко д 4 к 4)</span>
+					<a href="#">Показать на карте</a>
+				</div>
+			</div>
+			<div class="formMiddle__item">
+				<div class="formMiddle__item__checkbox">
+					<input id="contactChoice2" type="radio" name="contact" value="">
+					<label for="contactChoice2">СДЕК </label>
+					<span> (2-4 дня)</span>
+				</div>
+			</div>
+			<div class="formMiddle__item">
+				<div class="formMiddle__item__checkbox">
+					<input id="checkB3" type="radio" name="contact" value="">
+					<label for="checkB3">Срочная доставка по Москве </label>
+					<span> (0-1 день) </span>
+				</div>
+			</div>
+			<div class="formMiddle__item">
+				<div class="formMiddle__item__checkbox">
+					<input id="checkB4" type="radio" name="contact" value="">
+					<label for="checkB4">Почта России </label>
+					<span> (3-7 дней) </span>
+				</div>
+			</div>
+		</section>
+
+		<section class="formBottom">
+			<div class="formBottom__item">
+				<p class="titleForm3">3. Оплата</p>
+			</div>
+
+
+			<div class="formBottom__item bottom">
+				<div class="formBottom__item__checkbox">
+					<input id="checkB5" type="radio" name="contact" value="">
+					<label for="checkB5">Вариант оплаты № 1</label>
+				</div>
+			</div>
+			<div class="formBottom__item bottom">
+				<div class="formBottom__item__checkbox">
+					<input id="checkB6" type="radio" name="contact" value="">
+					<label for="checkB6">Вариант оплаты № 2</label>
+				</div>
+			</div>
+			<div class="formBottom__item bottom">
+				<div class="formBottom__item__checkbox">
+					<input id="checkB7" type="radio" name="contact" value="">
+					<label for="checkB7">Вариант оплаты № 3</label>
+				</div>
+			</div>
+			<div class="formBottom__item bottom">
+				<div class="formBottom__item__checkbox">
+					<input id="checkB8" type="radio" name="contact" value="">
+					<label for="checkB8">Вариант оплаты № 4</label>
+				</div>
+			</div>
+			<div class="formBottom__item bottom"><input type="text" placeholder="Примичание (необязательно)"></div>
+			<div class="formBottom__item bottom"><a href="#" class="formBtnDown">Далее</a></div>
+		</section>
+
+
+	</div>
+
+
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer__inner">
+				<div class="footer__item">
+					<div class="footer__logo">
+						<a href="">SHTEIGER</a>
+					</div>
+					<div class="footer__adress">
+						г. Москва, м.Кунцевская, <br>ул. Ивана Франко, д. 4, к. 4
+					</div>
+					<ul class="phone">
+						<li>
+							<a href="">+7 (499) 404-04-50</a>
+						</li>
+						<li>
+							<a href="">+7 (916) 416-89-28</a>
+						</li>
+					</ul>
+					<div class="footer__open">
+						Пн.- Вс. с 9:00 до 19:00
+					</div>
+				</div>
+				<div class="footer__item">
+					<div class="footer__heading">
+						<span>Каталог</span>
+					</div>
+					<ul class="footer__menu">
+						<li>
+							<a href="">Классические доски</a>
+						</li>
+						<li>
+							<a href="">Торцевые доски</a>
+						</li>
+						<li>
+							<a href="">Сервировочные доски</a>
+						</li>
+						<li>
+							<a href="">Доски с эпоксидной смолой</a>
+						</li>
+						<li>
+							<a href="">Столы</a>
+						</li>
+						<li>
+							<a href="">Часы</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__item">
+					<div class="footer__heading">
+						<span>О компании</span>
+					</div>
+					<ul class="footer__menu">
+						<li>
+							<a href="">Акции и скидки</a>
+						</li>
+						<li>
+							<a href="">Доставка и оплата</a>
+						</li>
+						<li>
+							<a href="">О нас</a>
+						</li>
+						<li>
+							<a href="">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__item">
+					<div class="footer__heading">
+						<span>О компании</span>
+					</div>
+					<div class="footer__newsaller">
+						<input type="text" placeholder="Ваш e-mail">
+					</div>
+					<div class="footer__social">
+						<ul class="social__list">
+							<li class="social__item">
+								<a href=""></a>
+							</li>
+							<li class="social__item">
+								<a href=""></a>
+							</li>
+							<li class="social__item">
+								<a href=""></a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__email">
+						<a href="mailto:info@shteiger.ru">info@shteiger.ru</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--  Модальное окно-->
+	<div class="popup">
+		<!-- само белое Модальное окно-->
+		<div class="popup-dialog">
+			<!-- содежимое Модального окна-->
+			<div class="popup-content">
+				<button class="popup-close">&times</button>
+				<h4 class="popup-header">Вход</h4>
+				<div class="popup-form">
+					<form>
+						<label for="email">Ваш e - mail - это логин</label>
+						<input type="email" class="main-form-input" id="email" placeholder="Ваш e - mail"
+							name="user_name" required>
+						<label for="tel">Ваш телефон - это пароль</label>
+						<input type="tel" class="main-form-input" id="tel" placeholder=" Ваш телефон" name="user_phone"
+							required>
+						<button class="formBtn" type="submit" name="send_user">Войти</button>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+	<script src='js/slick.min.js'></script>
+	<script src='js/main.js'></script>
+</body>
